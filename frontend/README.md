@@ -14,6 +14,8 @@ Run the following comands to set the environment:
 
 ### `npm i -D daisyui@latest`
 
+### `npm install react-icons --save`
+
 ## Rewrite your tailwind.config.js file:
 
 /** @type {import('tailwindcss').Config} \*/
