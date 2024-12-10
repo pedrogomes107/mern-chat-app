@@ -16,6 +16,10 @@ Run the following comands to set the environment:
 
 ### `npm install react-icons --save`
 
+### `npm i react-router-dom`
+
+### `npm i react-hot-toast`
+
 ## Rewrite your tailwind.config.js file:
 
 /** @type {import('tailwindcss').Config} \*/

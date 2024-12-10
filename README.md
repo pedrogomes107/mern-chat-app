@@ -4,15 +4,11 @@ Install server packages:
 
 ### `npm install express dotenv cookie-parser bcryptjs mongoose socket.io jsonwebtoken`
 
-Run Server:
-
-### `npm run server`
-
 Update Server Automatically:
 
 ### `npm install nodemon --save -dev`
 
-Update package.json:
+Update manually the file package.json:
 
 ### `"main": "server.js"`
 
@@ -27,3 +23,7 @@ MONGO_DB_URI=mongodb+srv://pedromcgomes95:YBwAhbg3z4YPZBWz@cluster0.f8mqb.mongod
 JWT_SECRET=+5kPiwytrP0i6ZUUTLZ0yFZCHQ3YGi3Xpm7MuR84Xqg=
 
 NODE_ENV=development
+
+## Run Server:
+
+### `npm run server`
