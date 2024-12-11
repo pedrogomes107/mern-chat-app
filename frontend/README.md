@@ -20,6 +20,8 @@ Run the following comands to set the environment:
 
 ### `npm i react-hot-toast`
 
+### `npm install zustand`
+
 ## Rewrite your tailwind.config.js file:
 
 /** @type {import('tailwindcss').Config} \*/
