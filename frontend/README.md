@@ -22,6 +22,8 @@ Run the following comands to set the environment:
 
 ### `npm install zustand`
 
+### `npm i socket.io-client`
+
 ## Rewrite your tailwind.config.js file:
 
 /** @type {import('tailwindcss').Config} \*/
