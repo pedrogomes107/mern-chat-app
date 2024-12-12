@@ -12,7 +12,7 @@ Update manually the file package.json:
 
 ### `"main": "server.js"`
 
-### `"scripts": {"server": "nodemon backend/server.js"}`
+### `"scripts": {"server": "nodemon backend/server.js", "start": "node backend/server.js", "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"}`
 
 ## Update/create the file .env with the lines:
 
@@ -24,6 +24,10 @@ JWT_SECRET=+5kPiwytrP0i6ZUUTLZ0yFZCHQ3YGi3Xpm7MuR84Xqg=
 
 NODE_ENV=development
 
+## Build App:
+
+### `npm run build`
+
 ## Run Server:
 
-### `npm run server`
+### `npm start`
