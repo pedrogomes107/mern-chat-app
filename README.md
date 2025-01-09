@@ -1,33 +1,27 @@
-Tutorial: https://www.youtube.com/watch?v=HwCqsOis89
+# Realtime Chat App
 
-Install server packages:
+Full Stack Realtime Chat App - with MongoDB, Express, React, Node and Tailwind
+
+## Demo:
+
+https://mern-chat-app-17im.onrender.com
+
+## Install npm packages:
 
 ### `npm install express dotenv cookie-parser bcryptjs mongoose socket.io jsonwebtoken`
 
-Update Server Automatically:
-
 ### `npm install nodemon --save -dev`
 
-Update manually the file package.json:
+## Run Server Locally:
 
-### `"main": "server.js"`
+#### `npm run server`
 
-### `"scripts": {"server": "nodemon backend/server.js", "start": "node backend/server.js", "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"}`
+## Deploy App:
 
-## Update/create the file .env with the lines:
+#### `npm run build`
 
-PORT=5000
+#### `npm run start`
 
-MONGO_DB_URI=mongodb+srv://pedromcgomes95:YBwAhbg3z4YPZBWz@cluster0.f8mqb.mongodb.net/chat-app-db?retryWrites=true&w=majority&appName=Cluster0
+## Tutorial:
 
-JWT_SECRET=+5kPiwytrP0i6ZUUTLZ0yFZCHQ3YGi3Xpm7MuR84Xqg=
-
-NODE_ENV=development
-
-## Build App:
-
-### `npm run build`
-
-## Run Server:
-
-### `npm start`
+https://www.youtube.com/watch?v=HwCqsOis894

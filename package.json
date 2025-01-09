@@ -1,7 +1,7 @@
 {
   "name": "mern-chat-app",
   "version": "1.0.0",
-  "description": "Tutorial: https://www.youtube.com/watch?v=HwCqsOis89",
+  "description": "Tutorial: https://www.youtube.com/watch?v=HwCqsOis894",
   "main": "server.js",
   "scripts": {
     "server": "nodemon backend/server.js",
